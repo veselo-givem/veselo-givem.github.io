@@ -1,5 +1,3 @@
-
-
 body {
     width: 1280px;
     margin: 0px auto;
@@ -164,25 +162,27 @@ footer li {
     text-transform: none;
 }
 
-.jj{
+.jj {
     width: 180px;
     text-transform: uppercase;
     padding-top: 35px;
 }
 
-.jj ul{
+.jj ul {
     line-height: 3;
 }
 
-hr{
+hr {
     margin-bottom: 50px;
 }
-.tt{
+
+.tt {
     display: flex;
-    
+
 }
 
-button{
+button {
+    position: relative;
     height: 50px;
     width: 240px;
     border-radius: 30px;
@@ -191,6 +191,12 @@ button{
     font-size: 14px;
 }
 
-button::before{
-    content: 
+button::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BE%D1%87%D0%BA%D0%B0.png");
+    width: 20px;
+    height: 20px;
+    right: 15px;
+    background-repeat: no-repeat;
 }
